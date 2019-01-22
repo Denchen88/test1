@@ -1,0 +1,142 @@
+
+// AUTHOR : NAME
+// DATE:
+
+
+
+//fonts haru
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+$font1: 'ZCOOL QingKe HuangYou', cursive;
+
+
+
+
+
+html,body{
+    height: 100%;
+}
+
+
+
+//resets
+.row{
+    margin: 0px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+// TODO:hijo ko jastai thulo ra color change huni 
+.navbar-brand{
+    color: #fff;
+    font-size: 28px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: .9s all ease-in-out;
+    &:hover{
+        font-size: 32px;
+        color: yellow;
+        transition: .9s all ease-in-out;
+    }
+}
+.navbar-collapse{
+
+    ul{
+
+        li{
+            padding: 5px;
+            a{
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+    background-color: #fff;
+}
+
+.welcome-txt{
+    margin-top: 200px;
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    transition: .9s all ease-in-out;
+    &:hover{
+        font-size: 90px;
+        color: yellow;
+        transition: .9s all ease-in-out;
+    }
+}
+
+
+//for about sections 
+
+.about-nav{
+
+    background-color: black;
+    .navbar-brand{
+        color: #fff;
+        font-size: 28px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        transition: .9s all ease-in-out;
+        &:hover{
+            font-size: 32px;
+            color: yellow;
+            transition: .9s all ease-in-out;
+        }
+    }
+    .navbar-collapse{
+    
+        ul{
+    
+            li{
+                padding: 5px;
+                a{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    
+}
+
+.aboutus-main-container{
+        text-align: center;
+
+    h3{
+        margin-top: 20px;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        border-bottom: 2px red solid;
+        &:hover{
+            font-size: 32px;
+            color: rgb(14, 218, 106);
+            transition: .9s all ease-in-out;
+        }
+    }
+
+    .image-container{
+        img{
+            height: 250px;
+        }
+    }
+    
+}
+p{
+    font-family: $font1;
+    font-size: 45px;
+}

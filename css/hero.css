@@ -1,0 +1,17 @@
+body{
+    background-color: #dddddd;
+    /* background-image: url('wohoo.jpg');
+    background-size: cover; */
+    
+}
+.navbar{
+    background-color: rgb(28, 7, 48);
+}
+
+.image-container,img {
+    background-size: cover;
+    width: 100%;
+}
+.form-group{
+    background-color: rgba(13, 13, 100, 0.466)
+}
